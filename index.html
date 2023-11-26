@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Happy Birthday</title>
+  <style>
+     button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #0E2944;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1e3316;
+    }
+    .birthday-message {
+    font-family: Georgia, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1a1818;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* Style for the signature */
+  .signature {
+    font-style: italic;
+    font-weight: bold;
+    color: #0E2944;
+    text-align: center;
+  }
+  </style>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+    <h1>Happy Birthday! Smiley😊</h1>
+    <!-- <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a> -->
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <audio id="birthdayAudio" loop>
+          <source src="birthdayAudio.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <button id="playButton">Click here to play</button>
+      </div>
+   </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <div class="birthday-message">
+      <p>Dear Smiley😊,</p>
+    <p>On this special day, as you step into another chapter of your life, I want to take a moment to celebrate the incredible person you are. Happy birthday, my love! Your presence in my life has brought boundless joy, laughter, and an abundance of cherished moments. Your kindness, compassion, and unwavering support continue to inspire me every single day. I love you so much even God is surprised.</p>
+
+    <p>I vividly recall the first time I heard you sing during the talent search event held in Kabarak. The moment you performed, something resonated within me, and I couldn't help but fall in love  you even more. Your voice held a captivating quality that touched my soul and left a lasting impression, memories that I cherish dearly. </p>
+
+    <p>As you blow out the candles today, may each flicker of the flame bring forth your deepest desires and dreams. May this year ahead be filled with endless opportunities, exciting adventures, and moments that take your breath away.</p>
+
+    <p>Your smile is like the sunshine that brightens my darkest days, and your laughter is the melody that soothes my soul. I promise to stand by your side, supporting you in every pursuit, and being the shoulder you can always lean on.</p>
+
+    <p>Here's to celebrating another year of your incredible existence, and to many more birthdays to come! May this day be as extra-ordinary and beautiful as you are.
+      I want to love you, my girl, yes, I want to love you for a long time.
+    </p>
+    <p>Happy birthday, My woman❤️</p>
+  </div>
+  <p class="signature">With all my love, The_invincible</p>
+  </main>
+              <script>
+                // Get the audio element and the play button
+                const audio = document.getElementById('birthdayAudio');
+                const playButton = document.getElementById('playButton');
+              
+                // Add a click event listener to the play button
+                playButton.addEventListener('click', function() {
+                  // Check if the audio is paused, then play or pause accordingly
+                  if (audio.paused) {
+                    audio.play();
+                    playButton.textContent = 'Pause';
+                  } else {
+                    audio.pause();
+                    playButton.textContent = 'Continue Playing';
+                  }
+                });
+              </script>
+        
+          <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our memories</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>In your DM😂</h4>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sunset</h4>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>your stupid ass-nigga</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>You are my stars</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>YOLO</h4>
+              </div>            
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>😍</h4>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>You look even more beautiful in my embrace</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>your smile</h4>
+              </div>  
+            </div>
+          </div>
+           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>mean ass bitch-look</h4>
+
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>The_invincible</span></strong>.
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
